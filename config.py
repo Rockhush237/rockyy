@@ -25,7 +25,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7907019701"))
+OWNER_ID = int(getenv("OWNER_ID", "6330290799"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/imagine_iq")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/smart_study_3")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_rockhush")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/about_rockhush")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -90,7 +90,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/804fa956a84862b547fc5.jpg"
+    "START_IMG_URL", "https://graph.org/file/e7f6347846360aa222f14-5c44c5c49266a6df6f.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/dc111a1c1358c553ea604.jpg"
